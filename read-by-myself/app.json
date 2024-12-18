@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "read-by-myself",
+    "name": "Читаю сам!",
     "slug": "read-by-myself",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,9 +28,15 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Разрешите доступ к микрофону!",
+          "speechRecognitionPermission": "Разрешите распознование речи!"
         }
       ]
     ],
